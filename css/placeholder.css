@@ -1,0 +1,40 @@
+::-webkit-input-placeholder {
+    font: 15px 'Open Sans', sans-serif;
+    color:  #adadad;
+    font-weight: 300;
+    padding-left: 5px;
+}
+::-moz-placeholder {
+    font: 15px 'Open Sans', sans-serif;
+    color:  #adadad;
+    font-weight: 300;
+    padding-left: 5px;
+}
+:-moz-placeholder {
+    font: 15px 'Open Sans', sans-serif;
+    color:  #adadad;
+    font-weight: 300;
+    padding-left: 5px;
+}
+:-ms-input-placeholder {
+    font: 15px 'Open Sans', sans-serif;
+    color:  #adadad;
+    font-weight: 300;
+    padding-left: 5px;
+}
+.input:focus::-webkit-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.input:focus::-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.input:focus:-moz-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.input:focus:-ms-input-placeholder {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
